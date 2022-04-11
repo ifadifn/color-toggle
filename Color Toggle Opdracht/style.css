@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+  overflow: hidden;
+}
+
+#box {
+  margin: -10px 0px 0px -10px;
+  padding: 10px;
+  width: 102%;
+  height: 105vh;
+  position: relative;
+}
+
+#menuBox {
+  width: fit-content;
+  margin-left: 20px;
+}
+
+#menu {
+  height: fit-content;
+  margin-left: 15px;
+  border: none;
+  border-radius: 12px 12px 12px 12px;
+}
+
+.fadein,
+.fadeout {
+  max-height: 0px;
+  border: none;
+  overflow-y: hidden;
+  -moz-transition: max-height 0.4s ease-in-out;
+  -o-transition: max-height 0.4s ease-in-out;
+  -webkit-transition: max-height 0.4s ease-in-out;
+  transition: max-height 0.4s ease-in-out;
+}
+
+.fadein {
+  max-height: 390px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 20px 40px;
+  margin-left: -40px;
+  cursor: pointer;
+  position: relative;
+}
+
+#btn0,
+.home {
+  background-color: gray;
+}
+
+#btn1,
+.red {
+  background-color: red;
+}
+
+#btn2,
+.orange {
+  background-color: orange;
+}
+
+#btn3,
+.purple {
+  background-color: purple;
+}
+
+#btn4,
+.green {
+  background-color: green;
+}
+
+#btn0 {
+  margin-top: -32px;
+}
+
+#btn5 {
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 32px;
+}
+
+input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+label {
+  position: relative;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  margin: 8px 0px 0px -35px;
+  height: 20px;
+  width: 20px;
+  background-color: none;
+  border-radius: 50%;
+}
+
+.checked span {
+  background-color: white;
+}
